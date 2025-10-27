@@ -1,0 +1,4 @@
+# Created at 2025-10-22T08:02:21.751
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Desafios_Qa_Aglista_Automação\DesafioPracticeForm\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

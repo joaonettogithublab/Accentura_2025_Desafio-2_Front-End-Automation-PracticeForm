@@ -1,0 +1,6 @@
+base\BasePage.class
+pages\PracticeFormPage.class
+stepdefinitions\PracticeFormSteps.class
+base\Hooks.class
+pages\HomePage.class
+runner\TestRunner.class

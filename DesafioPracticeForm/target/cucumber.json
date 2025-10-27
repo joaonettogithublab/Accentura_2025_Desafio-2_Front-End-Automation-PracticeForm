@@ -1,0 +1,138 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2025-10-22T11:03:21.214Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4171931600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Preenchimento, Upload e validacao do Pop up",
+        "description": "",
+        "id": "valida-form---practice-form;preenchimento--upload-e-validacao-do-pop-up",
+        "after": [
+          {
+            "result": {
+              "duration": 757031300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3947764500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuario está na páginada DemoQa",
+            "match": {
+              "location": "PracticeFormSteps.o_usuario_está_na_páginada_DemoQa()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242479200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ele navega para Forms e clica em Practice Form",
+            "match": {
+              "location": "PracticeFormSteps.eleNavegaParaFormsEClicaEmPracticeForm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 437369500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preenche o formulário de registro com dados aleatórios e faz o upload do arquivo",
+            "match": {
+              "location": "PracticeFormSteps.preencheOFormulárioDeRegistroComDadosAleatóriosEFazOUploadDoArquivo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82269400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "submete o formulário",
+            "match": {
+              "location": "PracticeFormSteps.submeteOFormulário()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67250700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "um popup de sucesso com o título \"Thanks for submitting the form\" deve ser exibido",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Thanks for submitting the form",
+                  "offset": 34
+                }
+              ],
+              "location": "PracticeFormSteps.umPopupDeSucessoComOTítuloDeveSerExibido(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 475702400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "ele fecha o popup com sucesso",
+            "match": {
+              "location": "PracticeFormSteps.eleFechaOPopupComSucesso()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Scenario01"
+          }
+        ]
+      }
+    ],
+    "name": "Valida Form - Practice Form",
+    "description": "  Como um usuário de testes\n  Eu desejo interagir com a aplição Web DemoQa\n  Para criar Form - Practice Form",
+    "id": "valida-form---practice-form",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Cenário01_PracticeForm.feature",
+    "tags": [
+      {
+        "name": "@Scenario01",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
